@@ -1,1 +1,1 @@
-web: uvicorn sql_app.main:app
+web: gunicorn sql_app.main:app
